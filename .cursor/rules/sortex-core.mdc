@@ -1,0 +1,8 @@
+---
+description: Core rules for the Sortex prototype
+alwaysApply: true
+---
+
+Before editing, read `PROJECT_CONTEXT.md`, `ARCHITECTURE.md`, and `AGENTS.md`.
+
+Keep changes small and task-scoped. Do not alter hardware, control, or vision contracts without updating `ARCHITECTURE.md` and tests. Parameters must come from config. Valves must default to OFF. After changes, run focused tests and report changed files, tests, assumptions, and limitations.

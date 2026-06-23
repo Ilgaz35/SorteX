@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data and model artifacts
+/data/raw/
+/data/images/
+/data/processed/
+/outputs/*.mp4
+/outputs/*.avi
+/outputs/*.mov
+*.pt
+*.onnx
+
+# Secrets
+.env

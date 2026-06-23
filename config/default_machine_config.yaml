@@ -1,0 +1,16 @@
+machine:
+  belt_width_mm: 300.0
+  camera_to_nozzle_distance_mm: 450.0
+  nominal_belt_speed_mm_s: 500.0
+  nozzle_count: 12
+  nozzle_spacing_mm: 25.0
+latency:
+  camera_exposure_ms: 5.0
+  frame_transfer_ms: 5.0
+  processing_ms: 40.0
+  communication_ms: 5.0
+  valve_opening_ms: 18.0
+  pneumatic_ms: 12.0
+ejection:
+  default_pulse_width_ms: 30
+  max_pulse_width_ms: 80
